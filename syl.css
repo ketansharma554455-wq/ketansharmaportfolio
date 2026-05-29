@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+/* .button{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20vh;
+
+} */
+button{
+    height: 10vh;
+    width: 12vw;
+    font-size: 2vw;
+}
+.main p{
+    text-align: center;
+    font-size: 5vw;
+}
+.main .button{
+        display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 20vh;
+}
+
+h2,h1,h3{
+    color: yellow;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promodoro</title>
+    <link rel="stylesheet" href="syl.css">
+</head>
+<style>
+    body {
+        background-color: aqua;
+        background-image: url("download.jpg");
+        background-size: cover;
+    }
+</style>
+
+<body>
+
+    <div class="main">
+        <h1>Promodoro Timer</h1>
+        <div class="button">
+            <button onclick="start()">Start</button>
+            <button onclick="pausetimer()">pausetimer</button>
+            <button>Reset</button>
+        </div>
+
+        <p id="timer"> 25:00</p>
+    </div>
+
+    <script>
+
+        function start() {
+            let totalsecond = 60 * 25;
+            let timer = setInterval(() => {
+                let minute = Math.floor(totalsecond / 60);
+                let second = totalsecond % 60;
+                second = second < 10 ? "0" + second : second;
+                document.getElementById("timer").innerText = minute + ":" + second;
+
+                totalsecond--;
+                if (totalsecond < 0) {
+                    clearInterval(timer);
+                    document.getElementById("timer").innerText = "timeover"
+                }
+            }, 1000);
+        }
+        let timer;
+        timer = setInterval()
+
+        function pausetimer() {
+            clearInterval(timer);
+        }
+    </script>
+</body>
+
+</html>

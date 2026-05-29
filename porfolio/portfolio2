@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ketan Sharma Portfolio</title>
+
+    <link rel="stylesheet" href="st.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav>
+
+        <div class="main">
+            <h1>KETAN SHARMA</h1>
+        </div>
+
+        <div class="list">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero-left" id="home">
+
+        <div class="hero-text">
+
+            <h1>Welcome to my portfolio</h1>
+
+            <h3>Hi, I'm Ketan Sharma</h3>
+
+            <h3>Building Smart Solutions with Python & IoT Frontend Learner</h3>
+
+            <p>
+                I build smart solutions using Python, Systems and Web technologies.
+                Passionate about building smart solutions using Python, IoT and Web Technologies.
+            </p>
+
+            <div class="about">
+
+                <button>Hire Me</button>
+
+                <button>Download Resume</button>
+
+            </div>
+
+            <div class="social">
+
+                <i class="fa-brands fa-github"></i>
+
+                <i class="fa-brands fa-linkedin"></i>
+
+                <i class="fa-solid fa-envelope"></i>
+
+            </div>
+
+        </div>
+
+        <div class="hero">
+
+            <img src="....png" alt="">
+
+        </div>
+
+    </section>
+    <!-- 
+    ================= SKILL SECTION ================= -->
+
+    <section class="myskill" id="skills">
+
+        <h1>MY SKILL</h1>
+
+        <div class="skillcontainer">
+
+            <!-- LEFT SIDE -->
+
+            <div class="technical">
+
+                <h2>Technical Skills</h2>
+
+                <div class="photo">
+
+                    <div class="card">
+
+                        <img src="python.png" alt="">
+
+                        <h3>Python</h3>
+
+                    </div>
+
+                    <div class="card">
+
+                        <img src="database.png" alt="">
+
+                        <h3>My SQL</h3>
+
+                    </div>
+
+                    <div class="card">
+
+                        <img src="web.png" alt="">
+
+                        <h3>HTML,CSS,JS</h3>
+
+                    </div>
+
+                    <div class="card">
+
+                        <img src="microchip.png" alt"">
+
+                        <h3>Embedded System</h3>
+
+                    </div>
+
+                    <div class="card">
+
+                        <img src="technology.png" alt="">
+
+                        <h3>IoT</h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT SIDE -->
+
+            <div class="soft">
+
+                <h2>Soft Skills</h2>
+
+                <ul>
+
+                    <li>Communication Skill</li>
+
+                    <li>Problem Solving</li>
+
+                    <li>Team Work</li>
+
+                    <li>Quick Learner</li>
+
+                    <li>Positive Thinking</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="Project2" id="projects">
+
+        <h1>MY PROJECT</h1>
+
+        <div class="pro">
+            <div class=project1>
+                <img src="weater.jpg" alt="">
+                <h3>weather prediction model</h3>
+            </div>
+            <div class=project2>
+                <img src="smart.jpg" alt="">
+                <h3>smart parking System</h3>
+            </div>
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+
+        <h1 class="heading">Contact Me</h1>
+
+        <div class="contact-box">
+
+            <p><i class="fa-solid fa-envelope"></i>
+                ketansharma554455@gmail.com
+            </p>
+
+            <p><i class="fa-solid fa-phone"></i>
+                +91 9193158127
+            </p>
+
+            <p><i class="fa-solid fa-location-dot"></i>
+                Agra, India
+            </p>
+
+        </div>
+
+    </section>
+    <footer>
+        <p>© 2026 Ketan Sharma | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>>
